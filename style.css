@@ -1,46 +1,37 @@
-.header{
-    font-family: 'IBM Plex Mono';
-    color: #e5c3e2;
-    font-size: 15px;
-}
-
-pre{
-    font-family: 'IBM Plex Mono';
-}
-
-h1{
-    font-family: 'IBM Plex Sans';
-    font-size: 22px;
-    color: #e5c3e2;
-    margin-left: 3px;
-}
-
-p1{
-    font-family: 'IBM Plex Sans';
-    color: #e5c3e2;
-    margin-left: 6px;
-    padding-left: 6px;
-}
-
-code{
-    font-family: IBM Plex Mono;
-}
-
-.links{
-    font-family: 'IBM Plex Sans';
-    color: #e5c3e2;
-    text-align: center;
-    justify-items: center;
-}
-
-a{
-    color: 	#9494f7
-}
-
-a:hover{
-    color: #94c6f7;
-}
-
-a:visited{
-    color: #c694f7;
-}
+/* Add a black background color to the top navigation */                                                                                                                                                                                                                                                                     
+.topnav {                                                                                                                                                                                                                                                                                                                    
+  background-color: #DCD7BA;                                                                                                                                                                                                                                                                                                 
+  overflow: hidden;                                                                                                                                                                                                                                                                                                          
+  width: 100%;                                                                                                                                                                                                                                                                                                               
+}                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                             
+/* Style the links inside the navigation bar */                                                                                                                                                                                                                                                                              
+.topnav a {                                                                                                                                                                                                                                                                                                                  
+    margin-left: 5px;                                                                                                                                                                                                                                                                                                        
+    float: left;                                                                                                                                                                                                                                                                                                             
+    background-color: #C0A36E;                                                                                                                                                                                                                                                                                               
+    border-top: 5px solid #dcd7ba;                                                                                                                                                                                                                                                                                           
+    border-bottom: 5px solid #dcd7ba;                                                                                                                                                                                                                                                                                        
+  color: #16161d;                                                                                                                                                                                                                                                                                                            
+  text-align: center;                                                                                                                                                                                                                                                                                                        
+  padding: 14px 16px;                                                                                                                                                                                                                                                                                                        
+  text-decoration: none;                                                                                                                                                                                                                                                                                                     
+  font-size: 17px;                                                                                                                                                                                                                                                                                                           
+}                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                             
+/* Change the color of links on hover */                                                                                                                                                                                                                                                                                     
+.topnav a:hover {                                                                                                                                                                                                                                                                                                            
+    border-bottom: none;                                                                                                                                                                                                                                                                                                     
+    border-top: none;                                                                                                                                                                                                                                                                                                        
+    margin-bottom: 0px;                                                                                                                                                                                                                                                                                                      
+    margin-top: 8px;                                                                                                                                                                                                                                                                                                         
+    color: #dcd7ba;                                                                                                                                                                                                                                                                                                          
+    background-color: #16161d;                                                                                                                                                                                                                                                                                               
+}                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                             
+/* Add a color to the active/current link */                                                                                                                                                                                                                                                                                 
+.topnav a.active {                                                                                                                                                                                                                                                                                                           
+  margin-left: 0px;                                                                                                                                                                                                                                                                                                          
+  background-color: #04AA6D;                                                                                                                                                                                                                                                                                                 
+  color: white;                                                                                                                                                                                                                                                                                                              
+}           
